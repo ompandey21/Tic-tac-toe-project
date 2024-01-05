@@ -1,0 +1,145 @@
+body{
+  background-color: rgb(203, 186, 237);
+  text-align: center;
+  align-items: center;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 420px;
+    gap: 2vmin;
+    width: 500px;
+    background-color: rgb(203, 186, 237);
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+h2{
+    font-weight: bolder;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: yellow;
+    text-shadow: 2px 1px rgb(15, 3, 38);
+}
+.end{
+    text-align: center;
+    height: 700px;
+    width: 80%;
+    background-color:rgb(29, 6, 29);
+    color: white;
+    font-size: 60px;
+    border-radius: 50px;
+    border: 5px solid gray;
+    margin: 3% 10% 10% 10%;
+    font-family: 'Stylish', serif;
+}
+.endHide{
+    display: none;
+}
+#footer{
+    font-size: 8px;
+    font-family: 'Stylish', serif;
+}
+
+.box{
+    height: 130px;
+    width: 130px;
+    border: 8px solid rgb(15, 3, 38);
+    padding-top: 0%;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 95px;
+    text-align: center;                                                         
+    background-color: rgb(15, 3, 38);
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: brown;
+    
+
+    
+}
+#display{
+    float:left;
+    color: blue;
+    font-size: 20px;
+    height: 30px;
+    display: block;
+    width: 400px;
+    background-color: rgb(118, 231, 205);
+    border:3px solid black;
+    border-radius: 5px;
+    margin-left: 54.2%;
+    margin-right: 320px;
+    text-align: center;
+}
+.box:hover{
+    background-color: rgb(78, 135, 140);text-align: center;
+    cursor: pointer;
+
+}
+#Winner{
+    height: 100px;
+    width: 800px;
+    text-align: center;
+    font-size: x-large;
+    color: azure;
+}
+#user{
+    float:left;
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    color: blue;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    border: 5px solid skyblue;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    margin-left: 20%;
+
+}
+.username{
+    height: 20px;
+    width: 250px;
+    border: 2px solid green;
+    border-radius: 15px;
+    text-align: center;
+
+}
+#start{
+    background-color: yellow;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#start:hover{
+    background-color: yellowgreen;
+}
+#newBtn{
+    margin-left: 480px;
+    margin-top: 40px;
+    height: 40px;
+    width: 60px;
+    background-color: azure;
+    display: inline;
+}
+#resetBtn{
+    margin-left: 970px;
+    margin-top: 40px;
+    height: 40px;
+    width: 80px;
+    background-color: azure;
+    display: inline;
+    border-radius: 5px;
+}
+#winnername{
+   font-size: 50px;
+   
+   color: white;
+   margin-top: 20px;
+   font-family: 'Stylish', serif;
+}
